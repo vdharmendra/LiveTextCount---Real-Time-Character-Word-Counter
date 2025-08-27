@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LiveTextCount - Real-Time Character & Word Counter</title>
+    <meta name="title" content="LiveTextCount - Real-Time Character & Word Counter">
+    <meta name="description" content="LiveTextCount is a simple, real-time text counter that tracks characters and words as you type. Perfect for writers, students, and developers.">
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Real-time Charater Counter</h2>
+      <textarea
+        id="textarea"
+        class="textarea"
+        placeholder="Please write your text here..."
+        maxlength="50"
+      ></textarea>
+      <div class="counter-container">
+        <p>
+          Total Charaters:
+          <span class="total-counter" id="total-counter"></span>
+        </p>
+        <p>
+          Remaining:
+          <span class="remaining-counter" id="remaining-counter"></span>
+        </p>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
