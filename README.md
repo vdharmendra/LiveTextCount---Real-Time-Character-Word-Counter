@@ -32,3 +32,18 @@ livetextcount/
 ├── style.css # Styling for the UI
 ├── main.js # JS logic for real-time counting
 └── README.md # Project documentation
+
+<span>👉 Desktop Design</span><br/>
+<a href="" target="_blank" >
+<img src="#" width="575px"/>
+</a>
+
+<span>👉 Desktop Design</span><br/>
+<a href="" target="_blank" >
+<img src="#" width="275px"/>
+</a>
+
+<span>👉 Cover Design</span><br/>
+<a href="" target="_blank" >
+<img src="#" width="375px"/>
+</a>
